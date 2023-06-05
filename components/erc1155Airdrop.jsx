@@ -62,7 +62,6 @@ const Airdrop1155 = () => {
 //                             </h3>
 //                             <input type="text" id="tokenId" value={tokenId} onChange={(e) => setTokenId(e.target.value)} placeholder='Enter token IDs in JSON format like ["1", "2", "3"]' className={styles.inputStyle} />
 //                             <br />
-    const Airdrop1155 = () => {
     const [tokenAddress, setTokenAddress] = useState("");
     const [tokenOwner, setTokenOwner] = useState("");
     const [recipient, setRecipient] = useState("");
