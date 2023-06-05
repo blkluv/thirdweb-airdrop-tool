@@ -110,11 +110,11 @@ const Airdrop1155 = () => {
                             <h3>
                                 <label htmlFor="amount">Amounts:</label>
                             </h3>
-                            <input type="text" id="amount" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder='Enter amounts in JSON format like ["1", "2", "3"]' className={styles.inputStyle} />
+                            <input type="text" id="amount" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder='Enter number of NFTs each address will receive' className={styles.inputStyle} />
                             <h3>
                                 <label htmlFor="tokenId">Token IDs:</label>
                             </h3>
-                            <input type="text" id="tokenId" value={tokenId} onChange={(e) => setTokenId(e.target.value)} placeholder='Enter token IDs in JSON format like ["1", "2", "3"]' className={styles.inputStyle} />
+                            <input type="text" id="tokenId" value={tokenId} onChange={(e) => setTokenId(e.target.value)} placeholder='Enter the token ID of the NFT you are sending' className={styles.inputStyle} />
                             <br />
                             <div className={styles.button}>
                                 <Web3Button
