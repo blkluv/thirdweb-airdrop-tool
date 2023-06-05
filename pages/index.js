@@ -10,7 +10,7 @@ const Home = () => {
         <main className={styles.main}>
           <h1 className={styles.title}>Airdrop Tool</h1>
           <div className={styles.grid}>
-            <Airdrop721 />
+//             <Airdrop721 />
             <Airdrop1155 />
           </div>
         </main>
